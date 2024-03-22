@@ -1,4 +1,7 @@
-package POO.Exercícios.Porta;
+//Defina uma classe Porta com os atributos: cor, altura, largura e estaAberta. Inclua na classe um construtor, os métodos gets e sets e o método toString() para retornar a representação textual do objeto.
+
+//Crie uma classe principal para criar objetos e invocar (chamar) os métodos disponíveis na classe Porta.
+
 
 public class Porta {
     private String cor;
@@ -50,8 +53,3 @@ public class Porta {
 
     }
 }
-
-//Defina uma classe Porta com os atributos: cor, altura, largura e estaAberta. Inclua na classe um construtor, os métodos gets e sets e o método toString() para retornar a representação textual do objeto.
-
-//Crie uma classe principal para criar objetos e invocar (chamar) os métodos disponíveis na classe Porta.
-
