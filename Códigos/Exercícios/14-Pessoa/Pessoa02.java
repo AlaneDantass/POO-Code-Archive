@@ -1,7 +1,7 @@
-public class Pessoa02 {
-    private String nome;
-    private int idade;
-    private String sexo;
+public abstract class Pessoa02 {
+    protected String nome;
+    protected int idade;
+    protected String sexo;
 
     public void fazerAniver(){
         idade++;

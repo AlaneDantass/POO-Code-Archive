@@ -4,7 +4,7 @@ os métodos disponíveis na classe Televisor e ControleRemoto.*/
 public class principal {
   public static void main(String[] args) {
     Televisor televisor1 = new Televisor(2, 6, false);
-    ControleRemoto controle = new ControleRemoto(1, 2, false);
+    ControleRemoto01 controle = new ControleRemoto01(1, 2, false);
     televisor1.ligar();
     televisor1.aumentarVolume();
     televisor1.canal(6);

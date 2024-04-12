@@ -1,11 +1,11 @@
 //Defina também uma classe ControleRemoto com o atributo Televisor e os mesmos métodos da classe Televisor.
 
-public class ControleRemoto {
+public class ControleRemoto01 {
     private int canal;
     private int volume;
     private boolean ligado;
 
-    public ControleRemoto(int canal, int volume, boolean ligado){
+    public ControleRemoto01(int canal, int volume, boolean ligado){
         this.canal = canal;
         this.volume = volume;
         this.ligado = ligado;

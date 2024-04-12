@@ -1,5 +1,3 @@
-package POO.Exercícios.Porta;
-
 public class principal {
     public static void main(String[] args) {
         Porta porta1 = new Porta("Branca", 2.0f, 0.8f, false);
