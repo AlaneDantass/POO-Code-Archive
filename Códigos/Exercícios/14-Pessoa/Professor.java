@@ -2,8 +2,9 @@ public class Professor extends Pessoa02{
     private  String especialidade;
     private double salario;
 
-    public void receberAum(double s){
+    public void receberAum(float s){
         setSalario(getSalario()+s);
+        System.out.println(getNome()+" acabou de receber um aumento de "+s+" R$");
     }
 
     public String getEspecialidade(){

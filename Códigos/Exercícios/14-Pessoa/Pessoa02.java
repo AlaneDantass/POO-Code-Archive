@@ -7,6 +7,10 @@ public class Pessoa02 {
         idade++;
     }
 
+    public String toString() {
+        return "Pessoa02 [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "]";
+    }
+
     public String getNome() {
         return nome;
     }
@@ -31,7 +35,7 @@ public class Pessoa02 {
         this.sexo = sexo;
     }
 
-    public void receberAum(double d) {
+    public void receberAum(float d) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'receberAum'");
     }

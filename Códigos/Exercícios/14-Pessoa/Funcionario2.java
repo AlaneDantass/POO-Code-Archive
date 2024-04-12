@@ -1,9 +1,10 @@
-public class Funcionario extends Pessoa02 {
+public class Funcionario2 extends Pessoa02 {
     private String setor;
     private boolean trabalhando;
 
     public void mudarTrabalho(){
         setTrabalhando(false);
+        System.out.println(getNome()+" não está trabalhando mais.");
     }
 
     public String getSetor() {
