@@ -1,7 +1,7 @@
 /*Crie uma classe principal para criar objetos e invocar (chamar) 
 os métodos disponíveis na classe Televisor e ControleRemoto.*/
 
-public class principal {
+public class principal02 {
   public static void main(String[] args) {
     Televisor televisor1 = new Televisor(2, 6, false);
     ControleRemoto01 controle = new ControleRemoto01(1, 2, false);

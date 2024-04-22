@@ -1,0 +1,21 @@
+Exercício: Sistema de Gerenciamento de Funcionários
+
+Objetivo:
+Implementar um sistema de gerenciamento de funcionários em uma empresa, utilizando conceitos de Programação Orientada a Objetos (POO) em Java, como herança, polimorfismo, agrupamento e encapsulamento.
+
+Descrição do Problema:
+A empresa precisa de um sistema para gerenciar informações sobre seus funcionários. Cada funcionário possui um nome, idade, cargo e salário. Existem diferentes tipos de funcionários, cada um com uma regra específica para calcular a bonificação.
+
+Analista: Recebe uma bonificação de 10% do salário.
+Desenvolvedor: Recebe uma bonificação de 15% do salário.
+Implemente as classes conforme a hierarquia abaixo:
+
+A classe Funcionario é abstrata e possui os atributos e métodos comuns a todos os funcionários.
+A interface Bonificavel possui o método calcularBonificacao() que deve ser implementado por todas as classes que podem receber bonificação.
+As classes Analista e Desenvolvedor herdam de Funcionario e implementam Bonificavel, cada uma com sua própria regra de bonificação.
+Crie uma classe TesteFuncionario com um método main para testar o sistema. Neste método, crie instâncias de Analista e Desenvolvedor, exiba as informações dos funcionários e calcule a bonificação de cada um.
+
+Requisitos:
+Utilize herança para reutilização de código.
+Utilize polimorfismo para chamar o método calcularBonificacao() de forma genérica.
+Utilize interfaces para agrupar funcionalidades comuns.
