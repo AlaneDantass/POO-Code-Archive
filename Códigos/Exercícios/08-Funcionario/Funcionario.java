@@ -82,24 +82,17 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    public void Estado(){
-        System.err.println(get_Cod());
-        System.out.println(get_Nome());
-        System.out.println(get_Cpf());
-        System.out.println(get_Endereço());
-        System.out.println(get_Telefone());
-        System.out.println(get_Idade());
-        System.out.println(get_Salario());
+    public String estado() {
+        return "Funcionario {" +
+                "codigo=" + cod +
+                ", nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", endereco='" + endereco + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", idade=" + idade +
+                ", salario=" + salario +
+                '}';
     }
-    /*public String toString(){
-        return ("Código: "+cod+
-            "\nNome: "+
-            "\nCPF: "+cpf+
-            "\nEndereço: "+ endereco+
-            "\nTelefone: "+telefone+
-            "\nIdade: "+idade+
-            "\nSalário: "+salario); 
-    }*/
 
     public double calculaSalarioLiquido(){
         return salario-((salario*11)/100.0);
