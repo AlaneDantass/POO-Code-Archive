@@ -3,7 +3,7 @@ public class principal_L {
         Pessoa[] p = new Pessoa[2];
         Livro[] l = new Livro[3];
 
-        p[0] = new Pessoa("Peu", 18, "M");
+        p[0] = new Pessoa("Julho", 18, "M");
         p[1] = new Pessoa("Alane", 17, "F");
 
         l[0] = new Livro("Declaração de fé", "CGADB", 264, p[1]);
