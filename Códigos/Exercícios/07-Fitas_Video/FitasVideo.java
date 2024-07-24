@@ -13,7 +13,7 @@ public class FitasVideo {
         this.aluguelPorDia = aluguelPorDia;
     }
 
-    public String getTitulo() {
+    public String getTitulo() { //usar o get é uma forma segura de mudar alguma implementação do atributo sem afetar o código
         return titulo;
     }
 
@@ -35,6 +35,6 @@ public class FitasVideo {
 
     @Override
     public String toString() {
-        return "Título: " + titulo + "\nAluguel por dia: " + aluguelPorDia;
+        return "Título: " + getTitulo() + "\nAluguel por dia: " + getAluguelPorDia();
     }
 }

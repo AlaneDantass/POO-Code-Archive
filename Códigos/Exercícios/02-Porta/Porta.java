@@ -16,7 +16,7 @@ public class Porta {
         this.estaAberta = estaAberta;
     }
 
-    public String get_Cor(){
+    public String get_Cor(){ 
         return cor;
     }
     public float get_Altura(){
@@ -48,8 +48,8 @@ public class Porta {
     public void fechar(){
         estaAberta = false;
     }
-    public void imprimir(){
-        System.out.println("Cor da porta: " + get_Cor() + "\nAltura da porta: " + get_Altura() + "\nLargura da porta: " + get_Largura() + "\nA porta está aberta? " + get_EstaAberta());
+    public String imprimir(){
+        return "Cor da porta: " + get_Cor() + "\nAltura da porta: " + get_Altura() + "\nLargura da porta: " + get_Largura() + "\nA porta está aberta? " + get_EstaAberta();
 
     }
 }

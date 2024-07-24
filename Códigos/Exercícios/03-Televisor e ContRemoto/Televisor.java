@@ -40,6 +40,32 @@ public class Televisor {
             "\nVolume = " + volume +
             "\nLigado = " + ligado;
     }
+
+    public int getCanal() {
+        return canal;
+    }
+
+    public void setCanal(int canal) {
+        this.canal = canal;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+
+    public boolean getLigado() {
+        return ligado;
+    }
+
+    public void setLigado(boolean ligado) {
+        this.ligado = ligado;
+    }
+
+    
     /*O método toString é usado para mostrar os valores dos atributos em forma de String; 
     Ele vai mostra uma representação textual do objeto criado.
     Quando vc usa o System.out.println(); automaticamente chamará o toString*/

@@ -2,7 +2,7 @@
  */
 public class Circulo {
     private double raio;
-    private final double pi;
+    private double pi;
 
     public Circulo(double raio){
         this.raio = raio;
@@ -10,16 +10,30 @@ public class Circulo {
     }
 
     public double calcuarArea(){
-        return pi*(raio*raio);
+        return getPi()*(getRaio()*getRaio());
     }
 
     public double calcularPerimetro(){
-        return (2*pi)*raio;
+        return (2*getPi())*getRaio();
     }
 
     public void imprimir(){
-        System.out.println("Raio: " + raio +
+        System.out.println("Raio: " + getRaio() +
         "\nÁrea: " + calcuarArea() +
         "\nPerímetro: " + calcularPerimetro());
     }
+
+    public double getRaio() {
+        return raio;
+    }
+
+    public void setRaio(double raio) {
+        this.raio = raio;
+    }
+
+    public double getPi() {
+        return pi;
+    }
+
+    //Não coloquei para modificar o pi porque seu valor já foi atribído no construtor
 }

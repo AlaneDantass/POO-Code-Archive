@@ -95,6 +95,6 @@ public class Funcionario {
     }
 
     public double calculaSalarioLiquido(){
-        return salario-((salario*11)/100.0);
+        return get_Salario()-((get_Salario()*11)/100.0);
     }
 }

@@ -45,17 +45,42 @@ public class Calendario {
         }
     }
 
+    
     public void mostrarData( ){
-        System.out.println("Dia"+dia+" de "+ nome_Mes(mes)+" de "+ano);   
+        System.out.println("Dia"+getDia()+" de "+ nome_Mes(getMes())+" de "+getAno());   
      }
 
     public void anoBissexto( ){
        if (ano%4==0){
-        System.out.println("O ano é bissexto!");
+        System.out.println("O ano é bissexto!"); 
        }else{
         System.out.println("O ano não é bissexto!");
        }
 
+    }
+
+    public int getDia() {
+        return dia;
+    }
+
+    public void setDia(int dia) {
+        this.dia = dia;
+    }
+
+    public int getMes() {
+        return mes;
+    }
+
+    public void setMes(int mes) {
+        this.mes = mes;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
     }
 
 }

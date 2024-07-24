@@ -7,7 +7,7 @@ public class principal01 {
         porta2.fechar();
 
         porta1.set_Cor("Marrom");
-        porta1.imprimir();
+        System.out.println(porta1.imprimir());
     
     }
 }

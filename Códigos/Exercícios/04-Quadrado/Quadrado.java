@@ -14,17 +14,25 @@ public class Quadrado {
     }
 
     public double calcularArea() {
-        return lado * lado;
+        return getLado() * getLado();
     }
 
     public double calcularPerimetro() {
-        return 4 * lado;
+        return 4 * getLado();
     }
 
     public void imprimir() {
-        System.out.println("Lado: " + lado + 
+        System.out.println("Lado: " + getLado() + 
                 "\nÁrea: " + calcularArea() +
                 "\nPerímetro: " + calcularPerimetro());
+    }
+
+    public double getLado() {
+        return lado;
+    }
+
+    public void setLado(double lado) {
+        this.lado = lado;
     }
 }
 
