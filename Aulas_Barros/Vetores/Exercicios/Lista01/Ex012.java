@@ -1,8 +1,9 @@
+package Lista01;
 //Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a soma de todos os elementos armazenados neste vetor. 
 
 import java.util.Scanner;
 
-public class Ex014 {
+public class Ex012 {
     public static void main(String[] args) {
         Scanner In = new Scanner(System.in);
         int[] A = new int[10];

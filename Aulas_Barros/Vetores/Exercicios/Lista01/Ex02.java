@@ -1,8 +1,9 @@
+package Lista01;
 //Criar um vetor A com 8 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho e com os elementos do vetor A multiplicados por 2, ou seja: B[i] = A[i] * 2.
 
 import java.util.Scanner;
-
-public static void main(String[] args) {
+public class Ex02{
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         //criação do vetor A com os 8 elementos
         int[] A = new int[10];
@@ -27,3 +28,4 @@ public static void main(String[] args) {
             System.out.format("A[i] = %d, B[i] %d\n", A[i], B[i]);
         }
     }
+}
