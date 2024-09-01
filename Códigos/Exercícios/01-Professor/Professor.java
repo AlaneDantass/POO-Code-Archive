@@ -1,5 +1,3 @@
-package POO.Exercícios.Professor;
-//Classe: Adiciona atributos para os objetos
 public class Professor {
     private int matricula;
     private String nome;

@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Ex02 {
-    @SuppressWarnings("resource")
     public static void main(String[] args) {
 // O código vai aqui
 
@@ -16,6 +15,9 @@ public class Ex02 {
             System.out.println("Digite um número para a posição " + i + ": ");
             num[i] = entrada.nextInt(); //Lê o número digitado pelo usuário;
         }
+
+        // Fechar o Scanner
+        entrada.close();
 
         //"FOR" é um laço de repetição (loop) que permite executar um bloco de código várias vezes
 

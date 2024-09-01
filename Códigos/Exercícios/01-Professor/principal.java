@@ -1,4 +1,3 @@
-package POO.Exercícios.Professor;
 public class principal {
     public static void main(String[] args) {
         Professor Professor = new Professor(10289, "Líbna Naftaly", "Português");
