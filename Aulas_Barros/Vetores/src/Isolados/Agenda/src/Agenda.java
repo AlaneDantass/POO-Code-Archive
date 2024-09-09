@@ -1,8 +1,5 @@
-import java.util.Scanner;
-
 public class Agenda {
     private Pessoa[] pessoas; //lista estática de pessoas que serão armazenadas
-
     private int qtdP; //Vai servir como um contador de pessoas já adicionadas
 
     public Agenda(int tamanho){ //vai receber ovalor máximo de pessoas dentro da agenda
@@ -24,7 +21,6 @@ public class Agenda {
         }
     }
     
-
     //Porque usar o boolean? Porque ele está servindo para retornar sucesso(true) ou falha(false)
 
     public String GetMaisNova(){

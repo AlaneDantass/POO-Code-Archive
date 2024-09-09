@@ -1,9 +1,8 @@
-package Lista01;
-//Criar dois vetores A e B cada um com 10 elementos inteiros. Construir um vetor C, onde cada elemento de C é a multiplicação dos respectivos elementos em A e B, ou seja: C[i] = A[i] * B[i]. 
+//Criar dois vetores A e B cada um com 10 elementos inteiros. Construir um vetor C, onde cada elemento de C é a soma dos respectivos elementos em A e B, ou seja: C[i] = A[i] + B[i]. 
 
 import java.util.Scanner;
 
-public class Ex08 {
+public class Ex06 {
     public static void main(String[] args) {
         Scanner Entrada = new Scanner(System.in);
         int[] A = new int[10];
@@ -21,13 +20,13 @@ public class Ex08 {
         }
 
         for (int i = 0; i < A.length; i++){
-            C[i] = A[i] * B[i];
+            C[i] = A[i] + B[i];
         }
 
         Entrada.close();
         
         for(int i = 0; i < A.length; i++){
-            System.out.format("A[i] = %d, x B[i] = %d, = C[i] = %d\n",A[i], B[i], C[i]);
+            System.out.format("A[i] = %d, + B[i] = %d, = C[i] = %d\n",A[i], B[i], C[i]);
         }
     }
 }

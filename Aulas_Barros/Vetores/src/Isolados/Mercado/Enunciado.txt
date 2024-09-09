@@ -1,0 +1,4 @@
+Escreva uma classe chamada Produto contendo o nome e o valor do produto. 
+
+Crie uma classe chamada Mercado com um atributo para armazenar até 20 produtos. 
+Além disso, na classe Mercado devem existir métodos para adicionar, pesquisar e excluir produtos.
