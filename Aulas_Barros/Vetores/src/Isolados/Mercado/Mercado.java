@@ -18,7 +18,8 @@ public class Mercado {
             System.out.println("Lista completa");
             return false;
         }else{
-            this.produto[this.qtd++] = pd;
+            this.produto[this.qtd] = pd;
+            qtd++;
             System.out.println("Adicionado com sucesso");
             return true;
         }

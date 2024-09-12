@@ -15,9 +15,7 @@ public class Main {
         mercado.excluir("Figo");
 
         mercado.pesquisar("Iorgute");
-        mercado.excluir("Papel");
-
-        
+        mercado.excluir("Papel");   
     }
 }
 
