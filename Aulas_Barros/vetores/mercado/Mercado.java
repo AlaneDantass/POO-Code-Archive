@@ -2,7 +2,7 @@
 
 //Crie uma classe Principal para instanciar objetos das classes Produto e Mercado e, em seguida, utilize os métodos disponíveis na classe Mercado.
 
-package Isolados.Mercado;
+package exercicios.mercado;
 
 public class Mercado {
     private Produto[] produto;

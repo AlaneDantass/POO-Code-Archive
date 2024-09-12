@@ -1,3 +1,5 @@
+package exercicios.agenda;
+
 public class Agenda {
     private Pessoa[] pessoas; //lista estática de pessoas que serão armazenadas
     private int qtdP; //Vai servir como um contador de pessoas já adicionadas

@@ -1,4 +1,4 @@
-package Isolados.Mercado;
+package exercicios.mercado;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Isolados.Mercado;
+package exercicios.mercado;
 
 //Escreva uma classe chamada Produto contendo o nome e o valor do produto.
 

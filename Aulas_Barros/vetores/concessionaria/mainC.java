@@ -1,6 +1,6 @@
-package Isolados.Concessionaria;
+package exercicios.concessionaria;
 
-public class main {
+public class mainC {
     public static void main(String[] args){
         
         Concessionaria concessionaria = new Concessionaria();

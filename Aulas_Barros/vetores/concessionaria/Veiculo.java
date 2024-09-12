@@ -1,4 +1,4 @@
-package Isolados.Concessionaria;
+package exercicios.concessionaria;
 
 public class Veiculo {
     private String modelo;

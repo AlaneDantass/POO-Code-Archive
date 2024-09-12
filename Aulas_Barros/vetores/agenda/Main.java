@@ -1,3 +1,4 @@
+package exercicios.agenda;
 import java.util.Scanner;
 
 public class Main {

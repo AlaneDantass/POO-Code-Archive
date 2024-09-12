@@ -1,4 +1,4 @@
-package Isolados.Concessionaria;
+package exercicios.concessionaria;
 
 public class Concessionaria {
     private Veiculo [] veiculo;
@@ -10,7 +10,7 @@ public class Concessionaria {
     }
 
     public boolean adicionarVeiculo(Veiculo veiculo){
-        if(qtd == this.veiculo.length){
+        if(this.qtd == this.veiculo.length){
             System.out.println("Lista completa");
             return false;
         }else{
