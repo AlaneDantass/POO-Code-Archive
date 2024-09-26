@@ -40,6 +40,7 @@ public class Livraria {
         for(int i = 0; i < this.qtd; i++){
             if (livros[i].getTitulo().equalsIgnoreCase(titulo)){
                 livros[i].calcularValorTotalEstoque();
+                break; //quebra o laço
             }
         }  
     }
