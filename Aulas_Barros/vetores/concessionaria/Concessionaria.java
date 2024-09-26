@@ -1,5 +1,3 @@
-package exercicios.concessionaria;
-
 public class Concessionaria {
     private Veiculo [] veiculo;
     private int qtd;

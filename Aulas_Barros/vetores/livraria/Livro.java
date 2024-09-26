@@ -9,14 +9,16 @@ public class Livro {
         this.autor = autor;
         this.preco = preco;
         this.quantidade = quantidade;
-    }
+    } 
 
-    public String getInfoVeiculo(){
-        return "Título: "+titulo+"\nAutor: "+autor+"\nPreço: "+preco+"\nQuantidade em estoque: "+ quantidade;
+    public String getInfoLivro(){
+        return "Título: "+titulo+"\nAutor: "+autor+"\nPreço: "+preco+"\nQuantidade em estoque: "+ quantidade+"\n\n";
     }
 
     public double calcularValorTotalEstoque(){
-        return preco*quantidade;
+        double totV = preco * quantidade;
+        System.out.println("O valor total do estoque do livro é "+totV);
+        return totV;
     }
     
     public String getTitulo() {

@@ -9,5 +9,8 @@ public class MainLivro {
         livraria.adicionarLivro(new Livro("O Pequeno Príncipe", "Antoine de Saint-Exupéry", 19.90, 20));
 
         livraria.buscarLivroPorTitulo("Treine seu cérebro para provas");
+        livraria.listarLivros();
+        livraria.Vtot("Inteligência Emocional");
+        
     }
 }
