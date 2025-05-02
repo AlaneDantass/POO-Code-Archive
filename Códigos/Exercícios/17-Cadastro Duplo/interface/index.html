@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sistema de Cadastro Escolar</h1>
+
+    <div class="menu">
+        <button onclick="mostrarTela('aluno')">Cadastrar Aluno</button>
+        <button onclick="mostrarTela('disciplina')">Cadastrar Disciplina</button>
+        <button onclick="mostrarTela('associar')">Associar Aluno à Disciplina</button>
+        <button onclick="mostrarTela('listar')">Listar Disciplinas</button>
+    </div>
+
+    <!-- Formulário de Aluno -->
+    <div class="tela" id="aluno">
+        <h2>Cadastrar Aluno</h2>
+        <form>
+            <input type="text" placeholder="Nome do Aluno"><br>
+            <input type="text" placeholder="Curso"><br>
+            <input type="number" placeholder="Série"><br>
+            <input type="email" placeholder="E-mail"><br>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+
+    <!-- Formulário de Disciplina -->
+    <div class="tela" id="disciplina">
+        <h2>Cadastrar Disciplina</h2>
+        <form>
+            <input type="number" placeholder="Código da Disciplina"><br>
+            <input type="text" placeholder="Nome da Disciplina"><br>
+            <input type="text" placeholder="Nome do Professor"><br>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+
+    <!-- Associação -->
+    <div class="tela" id="associar">
+        <h2>Associar Aluno à Disciplina</h2>
+        <form>
+            <input type="text" placeholder="Nome do Aluno"><br>
+            <input type="text" placeholder="Nome da Disciplina"><br>
+            <button type="submit">Associar</button>
+        </form>
+    </div>
+
+    <!-- Listagem -->
+    <div class="tela" id="listar">
+        <h2>Disciplinas Cadastradas</h2>
+        <div id="listaDisciplinas">
+            <!-- Aqui você pode exibir com JS depois -->
+            <p>Nenhuma disciplina cadastrada ainda.</p>
+        </div>
+    </div>
+
+    <script>
+        function mostrarTela(id) {
+            document.querySelectorAll('.tela').forEach(tela => tela.style.display = 'none');
+            document.getElementById(id).style.display = 'block';
+        }
+
+        // Mostrar a primeira por padrão
+        mostrarTela('aluno');
+    </script>
+</body>
+</html>
