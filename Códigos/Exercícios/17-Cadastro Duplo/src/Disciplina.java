@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 
 
@@ -29,6 +28,11 @@ public class Disciplina {
         return "Estudante "+ al.getNomeEstudante() + " cadastrado na disciplina de "+ getNomeDisciplina() ;
     }
 
+    public String removerAluno(Aluno al){
+        alunosCadastrados.remove(al);
+        return "Estudante "+ al.getNomeEstudante() + " removido da disciplina de "+ getNomeDisciplina();
+    }
+
     public int getCodDisciplina(){
         return codDisciplina;
     }
@@ -54,5 +58,4 @@ public class Disciplina {
     }
 
     //adiciona estudante na disciplina
-    
 }
